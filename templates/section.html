@@ -27,13 +27,15 @@
     <div class="posts">
         {% for page in section.pages | reverse %}
           <div class="post">
-            <h1 class="post-title">
+            
               <a href="{{ page.permalink }}">
-                {{ page.title }}
-              </a>
-            </h1>
+             <span><h1 class="post-title">{{ page.title }}</h1>
+                
+             
+            <small> {{page.date}} </small></span>  
 
-            <p> {{page.content | safe}}</p>
+            <p style = "color: gray;"> {{page.description}}</p>
+          </a>
           </div>
         {% endfor %}
     </div>

@@ -1,6 +1,7 @@
 +++
 title = "A Pure Prison"
 date = 2021-11-28
+description = "A vast array of rectangular white slabs fill the desert. Concrete towers going up towards the void. Prison they said, used to be extremely expensive and inefficient. You had to pay to house the prisoners, feed the prisoners, place them in solitary confinement…. You needed to hire armies of bureaucrats to supervise them. Of course, today there are technological solutions to everything. The real can be replaced with simulated environments utilizing big data blockchain AI Tableau Notion Cardano AWS Buzzwords-aaS to meet the individual needs..."
 +++
 A vast array of rectangular white slabs fill the desert. Concrete towers going up towards the void. Prison they said, used to be extremely expensive and inefficient. You had to pay to house the prisoners, feed the prisoners, place them in solitary confinement…. You needed to hire armies of bureaucrats to supervise them. Of course, today there are technological solutions to everything. The real can be replaced with simulated environments utilizing big data blockchain AI Tableau Notion Cardano AWS Buzzwords-aaS to meet the individual needs of the prisoner.
 

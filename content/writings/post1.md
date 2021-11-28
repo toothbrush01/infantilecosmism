@@ -1,6 +1,7 @@
 +++
-title = "Some music recs"
+title = "music recs"
 date = "2021-11-28"
+description= "exactly what it sounds like"
 +++
 Folkstone Hovercraft - Space Art
 
