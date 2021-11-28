@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Index Page</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+
+  <link rel="icon" href="img/favicon.png">
+
+</head>
+
+<body>
+
+<div id = wrapper>
+  <a href ="/" >
+    <img src = {{ get_url(path="proun.png", trailing_slash=false) }} >
+  </a>
+
+  <div id = main >
+    <div class="posts">
+        {% for page in section.pages | reverse %}
+          <div class="post">
+            <h1 class="post-title">
+              <a href="{{ page.permalink }}">
+                {{ page.title }}
+              </a>
+            </h1>
+
+            <p> {{page.content | safe}}</p>
+          </div>
+        {% endfor %}
+    </div>
+</div>
+  
+<div id = navbar> <ul> <li><a href = "/about">about</a> </li> <li><a href = "/writings">writings</a></li> <li><a href = "/contact">contact</a></li><li><a href="">archive</a></li> <li><a href ="/atom.xml">rss</a></li></a></li> </ul> </div>
+ 
+</div>
+
+</body>
+
+</html>
