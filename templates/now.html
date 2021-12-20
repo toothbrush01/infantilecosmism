@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>infantilecosmism</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="icon" href="/img/favicon.png">
+
+</head>
+
+<body>
+
+<div id = wrapper>
+  <a href ="/" >
+    <img src = "/proun.png" >
+  </a>
+
+  <div id = main >
+    <div class="posts">
+        {% for page in section.pages  %}
+          <div class="post" style = "border: 1px; border-style:dashed;">
+            <div class = "inner" style = "margin: 20px">
+              <a href="{{ page.permalink }}">
+             <span><h2 class="post-title">{{ page.title }}</h2>
+                
+             
+            <small> {{page.date}} </small></span>  
+
+            <p style = "color: black;"> {{ page.content | safe }} </p> 
+          </a>
+          </div>
+          </div>
+        {% endfor %}
+    </div>
+</div>
+  
+<div id = navbar> <ul> <li><a href = "/about">about</a> </li> <li><a href = "/writings">writings</a></li> <li><a href = "/contact">contact</a></li><li><a href="">archive</a></li> <li><a href ="/atom.xml">rss</a></li></a></li> </ul> </div>
+ 
+</div>
+
+</body>
+
+</html>
