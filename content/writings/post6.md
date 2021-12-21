@@ -1,6 +1,7 @@
 +++
 title = "Platonic Labor"
 date = "2021-12-20"
+description = "For as soon as the distribution of labour comes into being, each man has a particular, exclusive sphere of activity, which is forced upon him and from which he cannot escape. He is a hunter, a fisherman, a herdsman, or a critical critic, and must remain so if he does not want to lose his means of livelihood; while in communist society, where nobody has one exclusive sphere of activity but each can become accomplished in any branch he wishes, society regulates the general production and thus makes it possible for me to do one thing today and another tomorrow, to hunt in the morning, fish in the after"
 +++
 In Marxist circles much is discussed - little of substance. The insanity of neoliberalism capitalism or genuine insight is rarely revealed - the aim of course is to convert one to a standard boilerplate ideology. In fact the whole ontology of political discourse presupposes that ideologies exist as commodified products: a mind gene to be implanted into someone.
 
