@@ -1,5 +1,5 @@
 +++
-title = "Some Reflections on the Music of Susumu Hirasawa"
+title = "reflections on hirasawa (1)?"
 date = "2021-12-20"
 description = "ily hirasawa"
 +++
