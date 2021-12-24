@@ -28,13 +28,16 @@
   <div id = main ><h2> <b> {{page.title}} </h2></b> </h2>
 
 {{ page.content | safe }}
-<hr>
+
 {% if page.taxonomies.tags %}
+<hr>
+
                 {% for tags in page.taxonomies.tags %}
                 <a style = 'text-decoration: none; margin-left: 5px; color:grey' href="{{ get_taxonomy_url (  kind = "tags", name=tags ) }}"> <small> #{{ tags }} </small> </a>
                 {% endfor %}
-                {% endif %}
+                
 <hr>
+{% endif %}
 <script src="https://utteranc.es/client.js"
         repo="toothbrush01/infantilecosmism"
         issue-term="pathname"
