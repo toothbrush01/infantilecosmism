@@ -13,4 +13,4 @@ if you like any of my work you can donate:
 Monero:
 
 Ethereum:
-<small>0x2033d316F8dC871dA7D9E5D7FafC7588d0b744bd</small>
+<sup><sub>0x2033d316F8dC871dA7D9E5D7FafC7588d0b744bd</sub></sup>
