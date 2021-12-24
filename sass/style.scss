@@ -9,6 +9,7 @@
     grid-template-columns: repeat(12, 60px);
     grid-template-rows: repeat(auto, 60px);
     
+    
 }
 
 body{
@@ -29,9 +30,16 @@ body{
     font-family: Arial;
     text-align: justify;
     line-height: 1.6;
+
    
 
     
+}
+#links {
+    line-height: 1.4;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 600;
 }
 
 #main a {
