@@ -2,6 +2,8 @@
 title = "reflections on hirasawa (1)?"
 date = "2021-12-20"
 description = "ily hirasawa"
+[taxonomies]
+tags = ["music", "hirasawa", "accelerationism"]
 +++
 To anyone who knows me its not a suprise who my favorite artist is. If you haven't guessed by the title already. Ready for some shilling? 
 

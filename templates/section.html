@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="icon" href="img/favicon.png">
 
 </head>
@@ -20,27 +20,44 @@
 
 <div id = wrapper>
   <a href ="/" >
-    <img src = "proun.png" >
+    <img src = "/proun.png" >
   </a>
 
   <div id = main >
+ 
     <div class="posts">
-        {% for page in section.pages  %}
-          <div class="post">
-            
-              <a href="{{ page.permalink }}">
-             <span><h1 class="post-title">{{ page.title }}</h1>
-                
-             
-            <small> {{page.date}} </small></span>  
-
-            <p style = "color:gray"> {{page.description}} </p> 
-          <p style = "color:lightgray">(read more)</p>
-          </a>
-          </div>
-        {% endfor %}
-    </div>
+      {% for page in paginator.pages %}
+           <a href ="{{ page.permalink }}" >
+               <h1> {{ page.title }} </h1>
+              <div class="post__summary">
+                 <p style ="color:gray">{{ page.description | safe }} </p> 
+              </div>
+              <div class="read-more">
+                  <p style = "color: lightgray" >(Read more...)</p></a>
+              </div>
+              <div class = "taxonomy">
+                {% if page.taxonomies.tags %}
+                {% for tags in page.taxonomies.tags %}
+                <a style = 'text-decoration: none; margin-left: 5px; color:cornflowerblue' href="{{ get_taxonomy_url (  kind = "tags", name=tags ) }}"> <small> #{{ tags }} </small> </a>
+                {% endfor %}
+                {% endif %}
+              </div>
+              <br>
+         
+      {% endfor %}
+  </div>
+  
+  <nav class="pagination">
+      {% if paginator.previous %}
+          <a class="previous" style ="color:black" href="{{ paginator.previous }}">‹ Previous</a>
+      {% endif %}
+      {% if paginator.next %}
+          <a class="next" style = "color:black"href="{{ paginator.next }}">Next ›</a>
+      {% endif %}
+  </nav>
 </div>
+
+
   
 <div id = navbar> <ul> <li><a href = "/about">about</a> </li> <li><a href = "/writings">writings</a></li> <li><a href = "/contact">contact</a></li><li><a href="">archive</a></li> <li><a href ="/atom.xml">rss</a></li></a></li> </ul> </div>
  

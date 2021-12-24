@@ -2,6 +2,8 @@
 title = "A Horror Story"
 date = 2021-09-10
 description = "Lonely nights, dark days, bright dawns – my mind had been wrapped in delirium for a decade. Locked at home as a child, now locked as a corporate wage slave for Meta. A vast Kowloon esque fortress arose time and time for my parents – recycled plastics stacked higher than Babel. There are no offices here – an expensive and frankly boring pursuit – instead dormitories stacked to the sky..."
+[taxonomies]
+tags = ["fiction", "horror", "theoryfiction"]
 +++
 Lonely nights, dark days, bright dawns – my mind had been wrapped in delirium for a decade. Locked at home as a child, now locked as a corporate wage slave for Meta. A vast Kowloon esque fortress arose time and time for my parents – recycled plastics stacked higher than Babel. There are no offices here – an expensive and frankly boring pursuit – instead dormitories stacked to the sky. A metal bed with a “space-saving” air mattress that forms into a couch on a tap. There are no lights – just a glass that comes from the sky at night. Food is tubed in through IV wires routed throughout the premise. I never dared to show my parents this place – every time they came, I would always disappear to them – only meeting them on the metaverse.
 

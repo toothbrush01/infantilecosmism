@@ -2,6 +2,8 @@
 title = "music recs"
 date = "2021-01-09"
 description= "exactly what it sounds like"
+[taxonomies]
+tags = ["music", "patlabor"]
 +++
 Folkstone Hovercraft - Space Art
 

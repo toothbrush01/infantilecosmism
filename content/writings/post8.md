@@ -2,6 +2,8 @@
 title = "On Margins"
 date = "2021-12-21"
 description = "margins"
+[taxonomies]
+tags = ["technology", "aesthetics"]
 +++
 There is a school of people - known as the "web minimalists" - who believe the web needs to revturn to tradition or something. Minimal CSS, no JavaScript, and the usage of web safe fonts. While we here at infantilecosmism dot net believe in the speed and lightness advantages of web minimalism - we might add that the way content is laid out has profoundly changed.
 
