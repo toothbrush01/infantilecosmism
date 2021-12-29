@@ -2,8 +2,8 @@
 title = "Adventures in Kakhab: Part 1"
 date = 2021-12-28
 description = "I remember when I was 15... when I first drove into the city. It was breathtaking the city, a vast periphery of stone cobbled buildings flanking a small island of vast skyskrapers."
-[taxonomies] =
-tags ["osorra", "fiction"]
+[taxonomies] 
+tags = ["osorra", "fiction"]
 +++
 I remember when I was 15... when I first drove into the city. It was breathtaking the city, a vast periphery of stone cobbled buildings flanking a small island of vast skyskrapers. Blue buildings rising up to the ether contained within them some of the largest companies in the country. Kakhab was perhaps the last place on the Avalonian frontier - a place where you could make it through mere will and hard work. Opportunity here was endless to whoever could look for it.
 

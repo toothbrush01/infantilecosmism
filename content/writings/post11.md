@@ -2,7 +2,7 @@
 title = "Activism"
 date = "2021-12-29"
 description = "activism is gey"
-[taxonomies] =
+[taxonomies] 
 tags = ["social media", "society"]
 +++
 *Post I made on the WYDNA discord a while back*
